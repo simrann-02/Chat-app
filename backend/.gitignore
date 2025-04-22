@@ -1,0 +1,45 @@
+# Node modules and dependencies
+node_modules/
+
+# Logs and debugging files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+
+# Cache files and temporary directories
+.cache/
+tmp/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test outputs
+coverage/
+tests-output.xml
+
+# Miscellaneous
+*.log
+*.gz
+*.zip
+
+# Ignore yarn.lock and package-lock.json (optional)
+# Uncomment below if not using lock files consistently
+# yarn.lock
+# package-lock.json
